@@ -25,9 +25,9 @@ To run the tool, cd to the [dspace]/bin directory, then type:
 
     ./dspace dsrun edu.mit.lib.tools.Modernize -i <handle> -s <scratch> -t <target> 
 
-where <handle> is the community or collection defining the content subset, or 'all' to process the entire repository,
-<target> is the URL of an mds repository where you have administrative privileges,
-and <scratch> is the name of a directory where the tool can write temporary files. Since creating the serialized
+where _handle_ is the community or collection defining the content subset, or 'all' to process the entire repository,
+_target_ is the URL of an mds repository where you have administrative privileges,
+and _scratch_ is the name of a directory where the tool can write temporary files. Since creating the serialized
 version of the DSpace content in the scratch area may not need to be performed more than once, one can in fact
 run the command *without* an mds target:
 
