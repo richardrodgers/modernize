@@ -17,7 +17,7 @@ parents up to the root, but no siblings.
 Simply drop the built jar into [dspace]/lib, where [dspace] is your installation
 (deployment) directory. It is a command-line tool, so Tomcat is not involved.
 
-NB: important limitation! This code requires a Java 7 JRE
+NB: important limitation! This code requires a Java 7 JRE, regardless of the DSpace version.
 
 ## Invocation ##
 
